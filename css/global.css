@@ -1,5 +1,3 @@
-@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap);
-
 :root {
     --gray-25: #fcfcfd;
     --gray-50: #f9fafb;
@@ -140,15 +138,6 @@ footer {
     grid-area: footer;
 }
 
-.logo {
-    display: block;
-}
-
-.menu {
-    list-style: none;
-    display: flex;
-}
-
 .container {
     margin: 0 auto;
     padding: 0 2rem;
@@ -160,4 +149,45 @@ footer {
 
 .row {
     display: block;
+}
+
+
+/* NAVIGATION */
+.nav-logo {
+    display: block;
+}
+
+.nav-logo img {
+    min-width: 150px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    padding: 1rem;
+}
+
+.nav-link {
+    display: block;
+    font: var(--font-semibold) var(--text-md) var(--font-family);
+    color: var(--gray-500);
+    text-decoration: none;
+}
+
+.nav-link {
+    transition: color 0.5s ease-in;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--primary-700);
+}
+
+.nav-link.disabled {
+    color: var(--gray-300);
+    cursor: default;
 }
