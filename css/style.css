@@ -1,12 +1,6 @@
 @import url(global.css);
 @import url(responsive.css);
 
-.purple-stripe {
-    margin: 0;
-    height: 12px;
-    background: var(--primary-600);
-}
-
 .topic {
     font: var(--font-semibold) var(--display-md) var(--font-family);
     color: var(--primary-800);
