@@ -128,7 +128,6 @@ p {
 nav {
     grid-area: "nav";
     width: 100%;
-    border-bottom: 5px solid var(--primary-700);
 }
 
 main {
