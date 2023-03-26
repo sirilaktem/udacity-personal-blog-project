@@ -152,7 +152,7 @@ section {
 
 .row {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -254,6 +254,10 @@ i {
 
 
 /* Navigation */
+nav .row {
+    justify-content: space-between;
+}
+
 .nav-logo {
     display: block;
 }
@@ -328,6 +332,7 @@ i {
 /* Blog Post Card */
 .row:has(> .card) {
     align-items: stretch;
+    gap: 2%;
 }
 
 .card {
@@ -356,6 +361,11 @@ i {
 
 .card-text {
     font: var(--font-regular) var(--text-md) var(--font-family);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
 .covered-link::after {

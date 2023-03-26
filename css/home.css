@@ -1,25 +1,11 @@
 @import url(global.css);
 @import url(responsive.css);
 
-
-.bg-light-purple {
-    background-color: var(--primary-50);
-}
-
 .bg-pattern {
     background: url(../images/bg-home.svg) no-repeat center top;
-    background-size: cover;
-}
-
-.intro {
-    padding: 6rem 5rem 0 5rem;
-    text-align: center;
+    background-size: 100%;
 }
 
 h1 {
     color: var(--primary-900);
-}
-
-.post-list {
-    padding: 6rem 5rem;
 }

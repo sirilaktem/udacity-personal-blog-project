@@ -4,7 +4,7 @@
 .topic {
     font: var(--font-semibold) var(--display-md) var(--font-family);
     color: var(--primary-800);
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 .row:has(.color) {
