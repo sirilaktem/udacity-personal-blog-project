@@ -318,6 +318,16 @@ section {
 }
 
 
+/* Footer */
+.copyright {
+    font: var(--font-regular) var(--text-md) var(--font-family);
+}
+
+.border-top {
+    border-top: 1px solid var(--gray-200);
+}
+
+
 /* Content */
 .intro {
     text-align: center;
