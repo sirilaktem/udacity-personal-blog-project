@@ -160,6 +160,10 @@ section {
     justify-content: space-between;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .p-1 {
     padding: 1rem;
 }
@@ -183,6 +187,7 @@ section {
 .py-2 {
     padding: 2rem 0;
 }
+
 
 /* Solid Background Colors */
 .bg-gray-25 {
@@ -327,10 +332,6 @@ section {
 .border-top {
     border-top: 1px solid var(--gray-200);
 }
-
-
-/* Form and Inputs */
-
 
 
 /* Blog Post Card */
