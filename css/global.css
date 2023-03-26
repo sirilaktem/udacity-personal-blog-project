@@ -145,12 +145,11 @@ footer {
     max-width: 1280px;
 }
 
-.flex {
+.row {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 
 /* NAVIGATION */
 .nav-logo {
@@ -194,3 +193,13 @@ footer {
 .nav-link.active {
     color: var(--primary-700);
 }
+
+
+/* CONTENT */
+.intro {
+    padding: 6rem 5rem 0 5rem;
+    text-align: center;
+}
+
+
+/* FORM & INPUTS */
