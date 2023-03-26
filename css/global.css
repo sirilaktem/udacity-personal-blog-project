@@ -164,20 +164,20 @@ section {
     padding: 1rem;
 }
 
-.p-2 {
-    padding: 2rem;
-}
-
 .px-1 {
-    padding: 0 1rem;
-}
-
-.px-2 {
     padding: 0 1rem;
 }
 
 .py-1 {
     padding: 1rem 0;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.px-2 {
+    padding: 0 1rem;
 }
 
 .py-2 {
@@ -326,12 +326,6 @@ section {
 
 .border-top {
     border-top: 1px solid var(--gray-200);
-}
-
-
-/* Content */
-.intro {
-    text-align: center;
 }
 
 
