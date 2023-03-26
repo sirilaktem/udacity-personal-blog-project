@@ -9,3 +9,8 @@
 h1 {
     color: var(--primary-900);
 }
+
+.support-text {
+    font: var(--font-regular) var(--text-xl) var(--font-family);
+    color: var(--primary-700);
+}
