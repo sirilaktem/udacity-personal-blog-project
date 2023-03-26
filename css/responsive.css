@@ -12,7 +12,8 @@
         width: 100%;
     }
 
-    .cta input {
+    .cta input,
+    .cta .btn {
         width: 100%;
     }
 }
