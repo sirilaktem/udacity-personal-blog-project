@@ -11,6 +11,10 @@
     .card {
         width: 100%;
     }
+
+    .cta input {
+        width: 100%;
+    }
 }
 
 

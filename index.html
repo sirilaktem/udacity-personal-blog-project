@@ -35,10 +35,10 @@
         <main>
             <section class="text-center bg-primary-50">
                 <div class="container">
-                    <h1>Resources & insights!</h1>
+                    <h1>Resources & insights</h1>
                     <p class="support-text">The latest industry news, interviews, technologies, and resources.</p>
-                    <form>
-                        <input type="text" placeholder="Search">
+                    <form name="subscription" action="" method="get">
+                        <input type="text" placeholder="Search" class="search-input">
                     </form>
                 </div>
             </section>
@@ -121,12 +121,22 @@
                 </div>
             </section>
             <section class="bg-primary-50">
-                
+                <div class="cta container row justify-content-between py-2">
+                    <div class="cta-body">
+                        <div class="cta-title">Join our newsletter</div>
+                        <div class="support-text">I’ll send you a nice letter once per week. No spam.</div>
+                    </div>
+                    <form name="subscription" action="" method="post">
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="email" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
             </section>
         </main>
         <footer class="px-2">
             <div class="container">
-                <div class="row justify-content-between border-top py-2">
+                <div class="row justify-content-between py-2">
                     <a href="index.html"><img src="images/logo.svg" alt="Untitled UI logo"></a>
                     <span class="copyright">© 2077 Untitled UI. All rights reserved.</span>
                 </div>
