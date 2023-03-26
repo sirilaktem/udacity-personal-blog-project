@@ -156,6 +156,10 @@ section {
     flex-wrap: wrap;
 }
 
+.justify-content-between {
+    justify-content: space-between;
+}
+
 .p-1 {
     padding: 1rem;
 }
@@ -271,10 +275,6 @@ section {
 
 
 /* Navigation */
-nav .row {
-    justify-content: space-between;
-}
-
 .nav-logo {
     display: block;
 }
