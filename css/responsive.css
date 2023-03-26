@@ -2,11 +2,10 @@
 @media(max-width: 767px) {
     .container {
         max-width: 540px;
-        padding: 0 1rem;
     }
 
     .nav-item {
-        padding: 0.5rem;
+        padding: 0.35rem;
     }
 
     .card {
