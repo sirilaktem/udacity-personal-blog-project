@@ -7,3 +7,11 @@ time {
     color: var(--primary-600);
     margin-top: 3rem;
 }
+
+.support-text {
+    margin-bottom: 4rem;
+}
+
+.main-img {
+    width: 100%;
+}
