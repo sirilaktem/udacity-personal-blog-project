@@ -25,10 +25,3 @@ h1 {
     color: var(--primary-900);
     margin-bottom: 1.25rem;
 }
-
-input[type=text].search-input {
-    background: url(../images/icon-search.svg) no-repeat 10px center #fff;
-    padding-left: 2.5rem;
-    margin-top: 2.2rem;
-    width: 20rem;
-}

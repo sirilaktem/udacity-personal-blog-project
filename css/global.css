@@ -401,6 +401,13 @@ input[type=email] {
     padding-left: 2.5rem;
 }
 
+.search-input {
+    background: url(../images/icon-search.svg) no-repeat 10px center #fff;
+    padding-left: 2.5rem;
+    margin-top: 2.2rem;
+    width: 20rem;
+}
+
 ::placeholder {
     color: var(--gray-500);
 }
@@ -416,11 +423,12 @@ input:focus-visible {
 .btn {
     background: var(--primary-600);
     border: 1px solid var(--primary-600);
-    color: #fff;
     box-shadow: var(--shadow-xs);
-    padding: 10px 18px;
     border-radius: 8px;
+    padding: 10px 18px;
     font: var(--font-semibold) var(--text-md) var(--font-family);
+    color: #fff;
+    text-decoration: none;
     transition: 0.3s;
 }
 
