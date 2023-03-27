@@ -97,6 +97,15 @@ img {
     max-width: 100%;
 }
 
+figure {
+    margin: 3rem 0;
+}
+
+figcaption {
+    font: var(--font-regular) var(--text-sm) var(--font-family);
+    margin-top: 1rem;
+}
+
 label,
 button,
 select,

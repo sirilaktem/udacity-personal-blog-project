@@ -1,6 +1,11 @@
 @import url(global.css);
 @import url(responsive.css);
 
+h2,
+h3 {
+    margin-top: 3rem;
+}
+
 time {
     display: block;
     font: var(--font-semibold) var(--text-md) var(--font-family);
@@ -14,4 +19,91 @@ time {
 
 .main-img {
     width: 100%;
+}
+
+.intro {
+    font: var(--font-regular) var(--text-xl) var(--font-family);
+    margin-bottom: 2rem;
+}
+
+.rich-text,
+.conclusion,
+.info {
+    width: 720px;
+    padding: 0;
+}
+
+.rich-text,
+.info {
+    margin: 0 auto;
+}
+
+.quote {
+    border-left: 2px solid var(--primary-700)
+}
+
+blockquote {
+    margin: 0 1rem 2rem 1rem;
+    font: italic var(--font-regular) var(--display-xs) var(--font-family);
+    color: var(--gray-900);
+}
+
+.quote figcaption {
+    margin-left: 1rem;
+}
+
+.conclusion {
+    margin: 3rem auto;
+    padding: 2rem 2rem 2.5rem;
+    background: var(--gray-50);
+    border-radius: 1rem;
+}
+
+.conclusion h2 {
+    margin-top: 0;
+}
+
+.info {
+    border-top: 1px solid var(--gray-200);
+    padding-top: 1.5rem;
+    display: flex;
+}
+
+.author {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.author-img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #000;
+}
+
+.author-name {
+    font: var(--font-semibold) var(--text-lg) var(--font-family);
+    color: var(--gray-900);
+}
+
+.author-info {
+    font: var(--font-regular) var(--text-md) var(--font-family);
+}
+
+.author-bio {
+    font: var(--font-regular) var(--text-sm) var(--font-family);
+}
+
+.social {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
 }
