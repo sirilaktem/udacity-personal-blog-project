@@ -138,6 +138,7 @@ main {
 
 footer {
     grid-area: footer;
+    border-top: 1px solid var(--gray-100);
 }
 
 section {
