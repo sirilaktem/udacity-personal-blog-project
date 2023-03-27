@@ -2,7 +2,7 @@
 @import url(responsive.css);
 
 .topic {
-    font: var(--font-semibold) var(--display-md) var(--font-family);
+    font: var(--font-semibold) var(--display-xs) var(--font-family);
     color: var(--primary-800);
     background: var(--primary-100);
     padding: 1rem 0 1rem 2rem;
