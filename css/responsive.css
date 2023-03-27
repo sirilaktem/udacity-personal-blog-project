@@ -25,6 +25,10 @@
         min-width: 100%;
         padding: 2rem;
     }
+
+    .conclusion {
+        margin: 3rem auto;
+    }
 }
 
 

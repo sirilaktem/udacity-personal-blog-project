@@ -387,6 +387,7 @@ header {
 
 .card-text {
     font: var(--font-regular) var(--text-md) var(--font-family);
+    margin-bottom: 1rem;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -448,7 +449,10 @@ input:focus-visible {
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px var(--primary-100);
 }
 
+
+/* Buttons */
 .btn {
+    text-align: center;
     background: var(--primary-600);
     border: 1px solid var(--primary-600);
     box-shadow: var(--shadow-xs);
@@ -468,5 +472,29 @@ input:focus-visible {
 .btn:focus {
     background: var(--primary-600);
     border: 1px solid var(--primary-600);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px var(--primary-100);
+}
+
+.btn-secondary {
+    text-align: center;
+    background: var(--primary-50);
+    border: 1px solid var(--primary-50);
+    box-shadow: var(--shadow-xs);
+    border-radius: 8px;
+    padding: 10px 18px;
+    font: var(--font-semibold) var(--text-md) var(--font-family);
+    color: var(--primary-700);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    background: var(--primary-100);
+    border: 1px solid var(--primary-100);
+}
+
+.btn-secondary:focus {
+    background: var(--primary-50);
+    border: 1px solid var(--primary-50);
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px var(--primary-100);
 }
