@@ -330,10 +330,6 @@ section {
     color: var(--gray-400);
 }
 
-.border-top {
-    border-top: 1px solid var(--gray-200);
-}
-
 
 /* Blog Post Card */
 .row:has(> .card) {
