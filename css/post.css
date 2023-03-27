@@ -26,18 +26,6 @@ time {
     margin-bottom: 2rem;
 }
 
-.rich-text,
-.conclusion,
-.info {
-    width: 720px;
-    padding: 0;
-}
-
-.rich-text,
-.info {
-    margin: 0 auto;
-}
-
 .quote {
     border-left: 2px solid var(--primary-700)
 }

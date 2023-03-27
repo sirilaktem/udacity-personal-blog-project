@@ -8,13 +8,22 @@
         padding: 0.35rem;
     }
 
-    .card {
+    .card,
+    .related-post .card {
         width: 100%;
     }
 
     .cta input,
     .cta .btn {
         width: 100%;
+    }
+
+    .rich-text,
+    .conclusion,
+    .info {
+        width: 100%;
+        min-width: 100%;
+        padding: 2rem;
     }
 }
 
@@ -31,5 +40,17 @@
 
     .card {
         width: 48%;
+    }
+
+    .rich-text,
+    .conclusion,
+    .info {
+        width: 80%;
+        min-width: 720px;
+        padding: 0;
+    }
+
+    .related-post .card {
+        width: 49%;
     }
 }

@@ -168,6 +168,19 @@ header {
     flex-wrap: wrap;
 }
 
+.rich-text,
+.conclusion,
+.info {
+    width: 45%;
+    min-width: 720px;
+    padding: 0;
+}
+
+.rich-text,
+.info {
+    margin: 0 auto;
+}
+
 .justify-content-between {
     justify-content: space-between;
 }
@@ -343,7 +356,7 @@ header {
 
 
 /* Blog Post Card */
-.row:has(> .card) {
+.card-container {
     align-items: stretch;
     gap: 2%;
 }
@@ -391,6 +404,13 @@ header {
     content: "";
 }
 
+.related-post {
+    border-top: 1px solid var(--gray-100);
+}
+
+.related-post .card {
+    width: 23%;
+}
 
 /* Form and Input */
 input {
