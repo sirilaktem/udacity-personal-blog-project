@@ -40,29 +40,8 @@ blockquote {
     margin-left: 1rem;
 }
 
-.conclusion {
-    margin: 3rem auto;
-    padding: 2rem 2rem 2.5rem;
-    background: var(--gray-50);
-    border-radius: 1rem;
-}
-
 .conclusion h2 {
     margin-top: 0;
-}
-
-.info {
-    border-top: 1px solid var(--gray-200);
-    padding-top: 1.5rem;
-    display: flex;
-}
-
-.author {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1rem;
 }
 
 .author-img {

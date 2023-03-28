@@ -14,6 +14,7 @@ h1 {
 .support-text {
     font: var(--font-regular) var(--text-xl) var(--font-family);
     color: var(--primary-700);
+    margin-bottom: 2.2rem;
 }
 
 .cta-body {
